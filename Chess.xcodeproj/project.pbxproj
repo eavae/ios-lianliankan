@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		604EB9421A08B681009AC7FE /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604EB9411A08B681009AC7FE /* GameViewController.m */; };
+		604EB9461A0A2479009AC7FE /* NSValue+Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 604EB9451A0A2479009AC7FE /* NSValue+Position.m */; };
+		604EB94A1A0A2523009AC7FE /* global.m in Sources */ = {isa = PBXBuildFile; fileRef = 604EB9491A0A2523009AC7FE /* global.m */; };
 		60A4DE4E1A0205D1002B4707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A4DE4D1A0205D1002B4707 /* main.m */; };
 		60A4DE511A0205D1002B4707 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A4DE501A0205D1002B4707 /* AppDelegate.m */; };
-		60A4DE541A0205D1002B4707 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A4DE531A0205D1002B4707 /* ViewController.m */; };
 		60A4DE571A0205D1002B4707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60A4DE551A0205D1002B4707 /* Main.storyboard */; };
 		60A4DE591A0205D1002B4707 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60A4DE581A0205D1002B4707 /* Images.xcassets */; };
 		60A4DE5C1A0205D1002B4707 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60A4DE5A1A0205D1002B4707 /* LaunchScreen.xib */; };
 		60A4DE681A0205D1002B4707 /* ChessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A4DE671A0205D1002B4707 /* ChessTests.m */; };
+		60A4DE741A020EE5002B4707 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A4DE731A020EE5002B4707 /* Cell.m */; };
+		60A4DE771A020FE3002B4707 /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A4DE761A020FE3002B4707 /* CustomCellBackground.m */; };
+		60A4DE7A1A0211CD002B4707 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A4DE791A0211CD002B4707 /* MainViewController.m */; };
+		60A4DE7C1A02123B002B4707 /* emoji-people.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60A4DE7B1A02123B002B4707 /* emoji-people.plist */; };
+		60A4DE7F1A023532002B4707 /* Chess.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A4DE7E1A023532002B4707 /* Chess.m */; };
+		60A4DE821A0235CE002B4707 /* ChessBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A4DE811A0235CE002B4707 /* ChessBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +35,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		604EB9401A08B681009AC7FE /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		604EB9411A08B681009AC7FE /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
+		604EB9441A0A2479009AC7FE /* NSValue+Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+Position.h"; sourceTree = "<group>"; };
+		604EB9451A0A2479009AC7FE /* NSValue+Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+Position.m"; sourceTree = "<group>"; };
+		604EB9481A0A2523009AC7FE /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		604EB9491A0A2523009AC7FE /* global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = global.m; sourceTree = "<group>"; };
 		60A4DE481A0205D1002B4707 /* Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A4DE4C1A0205D1002B4707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60A4DE4D1A0205D1002B4707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60A4DE4F1A0205D1002B4707 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60A4DE501A0205D1002B4707 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60A4DE521A0205D1002B4707 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		60A4DE531A0205D1002B4707 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		60A4DE561A0205D1002B4707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60A4DE581A0205D1002B4707 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		60A4DE5B1A0205D1002B4707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		60A4DE611A0205D1002B4707 /* ChessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A4DE661A0205D1002B4707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60A4DE671A0205D1002B4707 /* ChessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessTests.m; sourceTree = "<group>"; };
+		60A4DE721A020EE5002B4707 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		60A4DE731A020EE5002B4707 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		60A4DE751A020FE3002B4707 /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		60A4DE761A020FE3002B4707 /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		60A4DE781A0211CD002B4707 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		60A4DE791A0211CD002B4707 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		60A4DE7B1A02123B002B4707 /* emoji-people.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "emoji-people.plist"; sourceTree = "<group>"; };
+		60A4DE7D1A023532002B4707 /* Chess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chess.h; sourceTree = SOURCE_ROOT; };
+		60A4DE7E1A023532002B4707 /* Chess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chess.m; sourceTree = SOURCE_ROOT; };
+		60A4DE801A0235CE002B4707 /* ChessBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoard.h; sourceTree = SOURCE_ROOT; };
+		60A4DE811A0235CE002B4707 /* ChessBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessBoard.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		604EB9431A0A2438009AC7FE /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				604EB9441A0A2479009AC7FE /* NSValue+Position.h */,
+				604EB9451A0A2479009AC7FE /* NSValue+Position.m */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		604EB9471A0A2508009AC7FE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				604EB9481A0A2523009AC7FE /* global.h */,
+				604EB9491A0A2523009AC7FE /* global.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
 		60A4DE3F1A0205D1002B4707 = {
 			isa = PBXGroup;
 			children = (
@@ -81,14 +122,21 @@
 		60A4DE4A1A0205D1002B4707 /* Chess */ = {
 			isa = PBXGroup;
 			children = (
-				60A4DE4F1A0205D1002B4707 /* AppDelegate.h */,
-				60A4DE501A0205D1002B4707 /* AppDelegate.m */,
-				60A4DE521A0205D1002B4707 /* ViewController.h */,
-				60A4DE531A0205D1002B4707 /* ViewController.m */,
+				60A4DE7D1A023532002B4707 /* Chess.h */,
+				60A4DE801A0235CE002B4707 /* ChessBoard.h */,
+				60A4DE811A0235CE002B4707 /* ChessBoard.m */,
+				60A4DE7E1A023532002B4707 /* Chess.m */,
 				60A4DE551A0205D1002B4707 /* Main.storyboard */,
 				60A4DE581A0205D1002B4707 /* Images.xcassets */,
 				60A4DE5A1A0205D1002B4707 /* LaunchScreen.xib */,
+				604EB9471A0A2508009AC7FE /* lib */,
+				604EB9431A0A2438009AC7FE /* extension */,
+				60A4DE711A0205EB002B4707 /* controller */,
 				60A4DE4B1A0205D1002B4707 /* Supporting Files */,
+				60A4DE721A020EE5002B4707 /* Cell.h */,
+				60A4DE731A020EE5002B4707 /* Cell.m */,
+				60A4DE751A020FE3002B4707 /* CustomCellBackground.h */,
+				60A4DE761A020FE3002B4707 /* CustomCellBackground.m */,
 			);
 			path = Chess;
 			sourceTree = "<group>";
@@ -96,8 +144,11 @@
 		60A4DE4B1A0205D1002B4707 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60A4DE4F1A0205D1002B4707 /* AppDelegate.h */,
+				60A4DE501A0205D1002B4707 /* AppDelegate.m */,
 				60A4DE4C1A0205D1002B4707 /* Info.plist */,
 				60A4DE4D1A0205D1002B4707 /* main.m */,
+				60A4DE7B1A02123B002B4707 /* emoji-people.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +168,17 @@
 				60A4DE661A0205D1002B4707 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60A4DE711A0205EB002B4707 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				604EB9401A08B681009AC7FE /* GameViewController.h */,
+				604EB9411A08B681009AC7FE /* GameViewController.m */,
+				60A4DE781A0211CD002B4707 /* MainViewController.h */,
+				60A4DE791A0211CD002B4707 /* MainViewController.m */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +263,7 @@
 			files = (
 				60A4DE571A0205D1002B4707 /* Main.storyboard in Resources */,
 				60A4DE5C1A0205D1002B4707 /* LaunchScreen.xib in Resources */,
+				60A4DE7C1A02123B002B4707 /* emoji-people.plist in Resources */,
 				60A4DE591A0205D1002B4707 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60A4DE541A0205D1002B4707 /* ViewController.m in Sources */,
+				604EB9421A08B681009AC7FE /* GameViewController.m in Sources */,
+				60A4DE7F1A023532002B4707 /* Chess.m in Sources */,
+				604EB94A1A0A2523009AC7FE /* global.m in Sources */,
+				60A4DE7A1A0211CD002B4707 /* MainViewController.m in Sources */,
+				604EB9461A0A2479009AC7FE /* NSValue+Position.m in Sources */,
+				60A4DE741A020EE5002B4707 /* Cell.m in Sources */,
 				60A4DE511A0205D1002B4707 /* AppDelegate.m in Sources */,
+				60A4DE821A0235CE002B4707 /* ChessBoard.m in Sources */,
+				60A4DE771A020FE3002B4707 /* CustomCellBackground.m in Sources */,
 				60A4DE4E1A0205D1002B4707 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +484,7 @@
 				60A4DE6D1A0205D1002B4707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60A4DE6E1A0205D1002B4707 /* Build configuration list for PBXNativeTarget "ChessTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +493,7 @@
 				60A4DE701A0205D1002B4707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
