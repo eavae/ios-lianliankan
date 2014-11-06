@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomCellBackground.h
 //  Chess
 //
 //  Created by liyu on 14/10/30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CustomCellBackground : UIView
 
 @end
-
